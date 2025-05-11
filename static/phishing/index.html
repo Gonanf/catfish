@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SORTEO</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        #navbar{
+            display: flex;
+            height: 200px;
+            justify-content: space-evenly;
+            justify-items: center;
+            align-items: center;
+            background-color: tomato;
+        }
+
+        #product{
+            display: flex;
+            background-color: lightgray;
+        }
+
+        #info{
+            padding: 100px;
+        }
+
+        #main{
+            margin: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        #main > img{
+            width: 500px;
+            height: 500px;
+        }
+
+        #personas{
+            color: red;
+        }
+
+        #precio{
+            animation:  pulsate 3s ease-out infinite;
+    color: greenyellow;
+    display: flex;
+        }
+
+        @keyframes pulsate {
+    0% { 
+        font-size: 16px;
+    }
+    50% { 
+        font-size: 32px;
+    }
+    100% { 
+        font-size: 16px;
+    }
+}
+
+    #comprar > button{
+        background-color: tomato;
+        width: 280px;
+        height: 100px;
+    }
+
+    #timer{
+        color: red;
+    }
+    </style>
+</head>
+<body>
+    <div id="navbar" >
+        <a href="" >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69 32" width="100px" height="100px"><path d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z"></path></svg>
+        </a>
+        <h1>SORTEOS</h1>
+        <a href="/login">Iniciar sesion</a>
+    </div>
+    <div id="main">
+        <h1>FELICIDADES USTED GANO UN IPHONE 16 PRO MAX</h1>
+        <img src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone16pro-digitalmat-gallery-3-202409?wid=728&hei=666&fmt=p-jpg&qlt=95&.v=VWJuckJvbkZqeTMwRFJZSHhSVnN1K2tBbTY2NGE0RXZvM3VONU9MVlluajBVMUIwNFV6MXNoZGhsYWgvZGlmdEJnNER5bEtzeFpoMTlNVnpVcXBTR0NDaXNCSFl3ajdkc3ZBMkZreEM2YjArdUxKZmY1NUtWbjl2NkdEREpaOVo" alt="" srcset="">
+        <h5>En 999 dias recibira un correo electronico, este atento, tal vez no</h5>
+    </div>
+</body>
+</html>
